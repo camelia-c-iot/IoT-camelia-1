@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-camelia
+  host: IoT-camelia
+  disk_quota: 1024M
+  services:
+  - IoT-camelia-cloudantNoSQLDB
+  - IoT-camelia-iotf-service
